@@ -30,6 +30,20 @@ public class App {
 		name1.replace(3, 4, "-");
 		name1.replace(5, 6, "-");
 		System.out.println(name1);
+		
+		// 3 Task
+		
+		String name2 = new String("kddo dos dod os odos o os");
+		String[] arrOfStr = name2.split(" "); 
+		int count = 0;
+		
+		for (String a : arrOfStr) {
+			count++;
+			System.out.println(a);
+			
+		} 
+            
+			System.out.println("Слів у реченні є: "+count );
 	
 }
 }
